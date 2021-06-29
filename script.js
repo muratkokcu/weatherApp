@@ -13,9 +13,9 @@ function setWeatherQuery(e) {
     }
     searchInput.value = '';
 }
-// OpenWeatherMap url and api
+// OpenWeatherMap.org url and api
 const url = 'https://api.openweathermap.org/data/2.5/';
-const apiKey = 'APIKEY';
+const apiKey = 'INSERT_YOUR_APIKEY';
 
 // Get Weather Results by City Name
 async function getWeatherResults(cityName) {
