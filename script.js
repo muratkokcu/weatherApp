@@ -15,7 +15,7 @@ function setWeatherQuery(e) {
 }
 // OpenWeatherMap url and api
 const url = 'https://api.openweathermap.org/data/2.5/';
-const apiKey = '918c07e7f5e34ecf57cabd00659321b9';
+const apiKey = 'APIKEY';
 
 // Get Weather Results by City Name
 async function getWeatherResults(cityName) {
